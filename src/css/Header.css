@@ -1,0 +1,17 @@
+.drop,
+.zone {
+  position: absolute;
+  font-size: 2.25rem;
+  letter-spacing: 0.338rem;
+  padding: 0.219rem 0.475rem 0.219rem 0.813rem;
+}
+
+.drop {
+  top: 1.938rem;
+  right: 3.063rem;
+}
+
+.zone {
+  top: 5.125rem;
+  right: 1.813rem;
+}

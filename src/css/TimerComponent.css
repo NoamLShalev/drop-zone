@@ -1,0 +1,56 @@
+.timer-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-component:not(:last-child) {
+  margin-right: 0.812rem;
+}
+
+.numbers-container {
+  margin-bottom: 0.493rem;
+}
+
+.number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  min-height: 2.469rem;
+  min-width: 1.961rem;
+}
+
+.number:first-child {
+  margin-right: 0.406rem;
+}
+
+.interval {
+  font-size: 0.875rem;
+  font-weight: 900;
+  letter-spacing: 0.338rem;
+}
+
+@media (min-width: 1024px) {
+  .timer-component:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .numbers-container {
+    margin-bottom: 0.938rem;
+  }
+
+  .number {
+    font-size: 3rem;
+    min-height: 4.563rem;
+    min-width: 3.625rem;
+  }
+
+  .number:first-child {
+    margin-right: 0.75rem;
+  }
+
+  .interval {
+    font-size: 1.5rem;
+  }
+}
