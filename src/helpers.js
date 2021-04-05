@@ -6,7 +6,3 @@ export const calculateTimeLeft = (ms) => {
     secs: Math.floor((ms / 1000) % 60),
   };
 };
-
-export const checkTwoDigits = (number) => {
-  return (number < 10 ? "0" : "") + number;
-};

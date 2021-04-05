@@ -6,8 +6,8 @@ import "../css/Header.css";
 const Header = () => {
   return (
     <>
-      <span className="drop black-and-white rozha">DROP</span>
-      <span className="zone black-and-white rozha">ZONE</span>
+      <span className="logo-text-1 black-and-white rozha">DROP</span>
+      <span className="logo-text-2 black-and-white rozha">ZONE</span>
     </>
   );
 };

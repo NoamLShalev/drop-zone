@@ -23,17 +23,13 @@ const CountdownTimer = () => {
     return () => clearInterval(interval);
   });
 
-  const timerComponents = [];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    timerComponents.push(
-      <TimerComponent
-        key={interval}
-        interval={interval}
-        timeLeft={timeLeft[interval]}
-      />
-    );
-  });
+  const timerComponents = Object.keys(timeLeft).map((interval) => (
+    <TimerComponent
+      key={interval}
+      interval={interval}
+      timeLeft={timeLeft[interval]}
+    />
+  ));
   return <div className="countdown-timer">{timerComponents}</div>;
 };
 

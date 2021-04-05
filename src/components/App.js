@@ -14,7 +14,7 @@ const App = () => {
       <div className="content">
         <h2 className="roboto">LEEZY BOOST 103</h2>
         <CountdownTimer />
-        <p className="until-drop roboto">UNTIL DROP</p>
+        <p className="description roboto">UNTIL DROP</p>
       </div>
     </div>
   );

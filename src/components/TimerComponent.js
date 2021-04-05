@@ -3,11 +3,8 @@ import React from "react";
 // CSS
 import "../css/TimerComponent.css";
 
-// Helpers
-import { checkTwoDigits } from "../helpers";
-
 const TimerComponent = ({ interval, timeLeft }) => {
-  let timeLeftArray = checkTwoDigits(timeLeft).split("");
+  let timeLeftArray = timeLeft.toString().padStart(2, "0").split("");
   timeLeftArray = timeLeftArray.map((number, index) => {
     return (
       <span key={index} className="number black-and-white rozha">
