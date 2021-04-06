@@ -25,7 +25,7 @@
   margin-right: 0.406rem;
 }
 
-.interval {
+.time-unit {
   font-size: 0.875rem;
   font-weight: 900;
   letter-spacing: 0.338rem;
@@ -50,7 +50,7 @@
     margin-right: 0.75rem;
   }
 
-  .interval {
+  .time-unit {
     font-size: 1.5rem;
   }
 }
